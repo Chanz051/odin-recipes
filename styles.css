@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.title, .sub-title {
+    text-align: center;
+}
+
+#recipes {
+  border: 2px dotted rgb(219, 219, 219);
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: peachpuff;
+}
+
+.recipe-item{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    padding: 15px;
+    border: 2px dotted rgb(219, 219, 219);
+    margin: 25px 40px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.small-img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.recipe-item p {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(124, 124, 124);
+}
