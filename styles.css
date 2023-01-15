@@ -6,13 +6,18 @@
     text-align: center;
 }
 
-#recipes {
+.recipes {
   border: 2px dotted rgb(219, 219, 219);
   margin: 0 auto;
   padding: 20px;
   width: 80%;
   height: auto;
   background-color: peachpuff;
+}
+
+.indi-recipe {
+    background-color: rgb(255, 243, 233);
+    border-color: black;
 }
 
 .recipe-item{
@@ -29,6 +34,15 @@
 .small-img {
     width: 200px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.medium-img {
+    width: 450px;
+    height: auto;
+    display: block;
     margin: 0 auto;
     border-radius: 10%;
 }
@@ -43,4 +57,9 @@ h3 a {
     font-weight: bold;
     text-align: center;
     color: rgb(124, 124, 124);
+}
+
+#description {
+    font-style: italic;
+    text-align: center;
 }
